@@ -13,7 +13,7 @@ import com.eshop.domain.User;
 import com.eshop.exception.RegisterException;
 import com.eshop.service.UserService;
 
-//@WebServlet("/register")
+@WebServlet("/register")
 public class RegisterServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     public void doGet(HttpServletRequest request, HttpServletResponse response)

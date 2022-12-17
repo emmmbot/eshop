@@ -1,11 +1,14 @@
-package cn.itcast.itcaststore.web.servlet.client;
+package com.eshop.web.servlet.client;
 import java.io.IOException;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import cn.itcast.itcaststore.domain.PageBean;
-import cn.itcast.itcaststore.service.ProductService;
+import com.eshop.domain.PageBean;
+import com.eshop.service.ProductService;
+
+@WebServlet("/MenuSearchServlet")
 /**
  * 前台页面，用于菜单栏下面搜索功能的servlet
  */

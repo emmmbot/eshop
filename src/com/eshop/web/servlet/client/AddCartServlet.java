@@ -1,4 +1,4 @@
-package cn.itcast.itcaststore.web.servlet.client;
+package com.eshop.web.servlet.client;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import cn.itcast.itcaststore.domain.Product;
-import cn.itcast.itcaststore.exception.FindProductByIdException;
-import cn.itcast.itcaststore.service.ProductService;
+import com.eshop.domain.Product;
+import com.eshop.exception.FindProductByIdException;
+import com.eshop.service.ProductService;
 
 public class AddCartServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)

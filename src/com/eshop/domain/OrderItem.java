@@ -1,4 +1,4 @@
-package cn.itcast.itcaststore.domain;
+package com.eshop.domain;
 
 public class OrderItem {
 

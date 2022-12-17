@@ -1,12 +1,15 @@
-package cn.itcast.itcaststore.web.servlet.client;
+package com.eshop.web.servlet.client;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import cn.itcast.itcaststore.domain.PageBean;
-import cn.itcast.itcaststore.service.ProductService;
+import com.eshop.domain.PageBean;
+import com.eshop.service.ProductService;
+
+@WebServlet("/showProductByPage")
 //分页显示数据
 public class ShowProductByPageServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

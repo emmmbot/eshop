@@ -1,4 +1,4 @@
-package cn.itcast.itcaststore.dao;
+package com.eshop.dao;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -8,10 +8,10 @@ import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 //import com.sun.faces.taglib.jsf_core.MaxMinValidatorTag;
-import cn.itcast.itcaststore.domain.Order;
-import cn.itcast.itcaststore.domain.OrderItem;
-import cn.itcast.itcaststore.domain.Product;
-import cn.itcast.itcaststore.utils.DataSourceUtils;
+import com.eshop.domain.Order;
+import com.eshop.domain.OrderItem;
+import com.eshop.domain.Product;
+import com.eshop.utils.DataSourceUtils;
 
 public class ProductDao {
 	// 添加商品

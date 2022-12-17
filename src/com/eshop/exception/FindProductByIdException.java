@@ -1,4 +1,4 @@
-package cn.itcast.itcaststore.exception;
+package com.eshop.exception;
 
 public class FindProductByIdException extends Exception {
 

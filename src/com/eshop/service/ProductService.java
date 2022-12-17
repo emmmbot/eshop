@@ -1,12 +1,12 @@
-package cn.itcast.itcaststore.service;
+package com.eshop.service;
 import java.sql.SQLException;
 import java.util.List;
-import cn.itcast.itcaststore.dao.ProductDao;
-import cn.itcast.itcaststore.domain.PageBean;
-import cn.itcast.itcaststore.domain.Product;
-import cn.itcast.itcaststore.exception.AddProductException;
-import cn.itcast.itcaststore.exception.FindProductByIdException;
-import cn.itcast.itcaststore.exception.ListProductException;
+import com.eshop.dao.ProductDao;
+import com.eshop.domain.PageBean;
+import com.eshop.domain.Product;
+import com.eshop.exception.AddProductException;
+import com.eshop.exception.FindProductByIdException;
+import com.eshop.exception.ListProductException;
 public class ProductService {
 	private ProductDao dao = new ProductDao();
 	// 添加商品
